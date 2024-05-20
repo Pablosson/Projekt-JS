@@ -68,7 +68,7 @@ export function createModal() {
   const modal = document.createElement('div');
   modal.classList.add('modal-custom');
   modal.innerHTML = `
-    <div class="modal-content-custom">
+   <div class="modal-content-custom">
       <span class="close-button-custom">&times;</span>
       <img class="modal-poster-custom" src="" alt="Plakat filmu">
       <div class="modal-details-custom">
